@@ -1,0 +1,98 @@
+body{
+	margin:0px;
+}
+#header-body{
+	height:70vh;
+	background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+	background-size:cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.horizontal-list{
+	list-style:none; /* to remove the bullets of list*/ 
+	padding-left: 0px; /* to remove the left padding*/ 
+    margin:0px;
+
+}
+
+.horizontal-list li{
+	display: inline-block;
+	margin:0px 8px 8px 0px;
+}
+
+.horizontal-list li a{
+	color:cyan;
+	text-decoration: none;
+}
+.nav-menu li a{
+	transition: color 0.5s , border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+	color:red;
+	border-bottom: 1px solid black ;
+}
+.horizontal-list li a:hover {
+	color:red;
+	border-bottom: 1px solid black ;
+}
+.text-center{
+	text-align: center;
+}
+
+#my-name{
+	
+    
+	font-size:3rem ;
+	letter-spacing: 0.1rem;
+	color: green;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+}
+#name-social-container{
+	margin-top: 20vh;
+}
+.social-icons li a i{
+	padding: 10px;
+	font-size:1.5rem;
+	border-radius: 50px;
+}
+.social-icons li a i:hover{
+	box-shadow:0px 0px 4px 4px rgba(230,196,196,0.3) ; /* hoffset(+ive values on right side and _ive value means left side) , voffset , blur , spread , color*/
+}
+#about{
+	height:auto;  /*setting it to auto fixes the scroll*/
+	width:100%;
+	positin:relative; /*so that profile image appears above the bg image*/
+}
+#my-image{
+	height:15rem;   /*parent*/
+	width:12rem;
+	margin:auto;
+	margin-top: -17vh; /*to take the image above*/
+}
+#my-image img{
+	height:100%;     /*child*/
+	width:100%;
+	border-radius: 50%;
+}
+section{
+	width:100%;
+	display:flex;
+	height:75vh;
+	flex-direction:column;
+}
+section : nth-child(2n){
+	background-color: grey;
+}
+section : nth-child(2n+1){
+	background-color: grey;
+}
+
+
+
+
+
+
+
+
